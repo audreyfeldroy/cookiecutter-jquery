@@ -9,6 +9,6 @@ Before sending a pull request remember to follow [jQuery Core Style Guide](http:
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request :D
 
-#### Have you created a plugin from our boilerplate?
+#### Have you created a site using {{ cookiecutter.project_name}}?
 
-[Let us know!](https://github.com/jquery-boilerplate/boilerplate/wiki/Sites) It’s interesting to see what features others have come up with.
+[Let us know!](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/wiki/Sites) It’s interesting to see what uses others have come up with.

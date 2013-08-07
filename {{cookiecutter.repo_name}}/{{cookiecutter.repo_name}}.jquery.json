@@ -1,7 +1,7 @@
 {
 	"name": "{{ cookiecutter.repo_name }}",
 	"title": "{{ cookiecutter.project_name }}",
-	"description": "{{ cookiecutter. }}",
+	"description": "{{ cookiecutter.project_short_description }}",
 	"keywords": [
 		"{{ cookiecutter.repo_name }}"
 	],

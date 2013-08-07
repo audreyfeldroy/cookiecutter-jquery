@@ -1,8 +1,6 @@
 # {{ cookiecutter.project_name }} [![Build Status](https://secure.travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.png?branch=master)](https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }})
 
-### {{ cookiecutter.project_short_description }}
-
-{{ cookiecutter.project_long_description }}
+{{ cookiecutter.project_short_description }}
 
 ## Usage
 

@@ -9,3 +9,15 @@ which I'm a big fan of.
 
 But it will grow as I turn it into my own "opinionated" ultimate jQuery plugin
 template for my projects.
+
+## Usage
+
+```
+$ cookiecutter https://github.com/audreyr/cookiecutter-jquery.git
+$ ... (fill out the values you want)
+$ npm install
+```
+
+After generating the project:
+
+* Go to https://travis-ci.org/profile, click [Sync now], and turn on the Travis CI hook for your repo.

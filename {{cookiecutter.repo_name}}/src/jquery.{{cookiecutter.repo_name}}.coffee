@@ -8,12 +8,12 @@ do ($ = jQuery, window, document) ->
 	# minified (especially when both are regularly referenced in your plugin).
 
 	# Create the defaults once
-	pluginName = "defaultPluginName"
+	{{ cookiecutter.pluginName }} = "{{ cookiecutter.pluginName }}"
 	defaults =
 		property: "value"
 
 	# The actual plugin constructor
-	class Plugin
+	class {{ cookiecutter.className }}
 		constructor: (@element, options) ->
 			# jQuery has an extend method which merges the contents of two or
 			# more objects, storing the result in the first object. The first object
@@ -21,7 +21,7 @@ do ($ = jQuery, window, document) ->
 			# future instances of the plugin
 			@settings = $.extend {}, defaults, options
 			@_defaults = defaults
-			@_name = pluginName
+			@_name = {{ cookiecutter.pluginName }}
 			@init()
 
 		init: ->
@@ -35,7 +35,7 @@ do ($ = jQuery, window, document) ->
 
 	# A really lightweight plugin wrapper around the constructor,
 	# preventing against multiple instantiations
-	$.fn[pluginName] = (options) ->
+	$.fn[{{ cookiecutter.pluginName }}] = (options) ->
 		@each ->
-			if !$.data(@, "plugin_#{pluginName}")
-				$.data(@, "plugin_#{pluginName}", new Plugin(@, options))
+			if !$.data(@, "plugin_#{{{ cookiecutter.pluginName }}}")
+				$.data(@, "plugin_#{{{ cookiecutter.pluginName }}}", new {{ cookiecutter.className }}(@, options))

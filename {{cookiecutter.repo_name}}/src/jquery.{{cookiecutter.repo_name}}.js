@@ -12,13 +12,13 @@
 		// minified (especially when both are regularly referenced in your plugin).
 
 		// Create the defaults once
-		var pluginName = "defaultPluginName",
+		var {{ cookiecutter.pluginName }} = "{{ cookiecutter.pluginName }}",
 				defaults = {
 				propertyName: "value"
 		};
 
 		// The actual plugin constructor
-		function Plugin ( element, options ) {
+		function {{ cookiecutter.className }} ( element, options ) {
 				this.element = element;
 				// jQuery has an extend method which merges the contents of two or
 				// more objects, storing the result in the first object. The first object
@@ -26,11 +26,11 @@
 				// future instances of the plugin
 				this.settings = $.extend( {}, defaults, options );
 				this._defaults = defaults;
-				this._name = pluginName;
+				this._name = {{ cookiecutter.pluginName }};
 				this.init();
 		}
 
-		Plugin.prototype = {
+		{{ cookiecutter.className }}.prototype = {
 				init: function () {
 						// Place initialization logic here
 						// You already have access to the DOM element and
@@ -47,10 +47,10 @@
 
 		// A really lightweight plugin wrapper around the constructor,
 		// preventing against multiple instantiations
-		$.fn[ pluginName ] = function ( options ) {
+		$.fn[ {{ cookiecutter.pluginName }} ] = function ( options ) {
 				return this.each(function() {
-						if ( !$.data( this, "plugin_" + pluginName ) ) {
-								$.data( this, "plugin_" + pluginName, new Plugin( this, options ) );
+						if ( !$.data( this, "plugin_" + {{ cookiecutter.pluginName }} ) ) {
+								$.data( this, "plugin_" + {{ cookiecutter.pluginName }}, new {{ cookiecutter.className }}( this, options ) );
 						}
 				});
 		};

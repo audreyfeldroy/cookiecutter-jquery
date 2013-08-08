@@ -8,5 +8,6 @@
 	"release_date": "2013-08-07",
 	"year": "2013",
 	"version": "0.1.0",
-  "pluginName": "topBar"
+  "pluginName": "topBar",
+  "className": "TopBar"
 }

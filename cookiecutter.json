@@ -1,12 +1,12 @@
 {
-	"full_name": "Your Name",
-	"email": "you@example.com",
-	"github_username": "username",
-	"project_name": "jQuery Boilerplate",
-	"repo_name": "boilerplate",
-	"project_short_description": "A jump-start for jQuery plugins development.",
+	"full_name": "Audrey Roy",
+	"email": "audreyr@gmail.com",
+	"github_username": "audreyr",
+	"repo_name": "topbar",
+	"project_name": "jQuery TopBar",
+	"project_short_description": "A top bar for notifications. Dismiss it by clicking the x.",
 	"release_date": "2013-08-07",
 	"year": "2013",
 	"version": "0.1.0",
-  "defaultPluginName": "boilerPlate"
+  "pluginName": "topBar"
 }

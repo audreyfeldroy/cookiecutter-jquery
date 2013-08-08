@@ -37,5 +37,5 @@ do ($ = jQuery, window, document) ->
 	# preventing against multiple instantiations
 	$.fn[{{ cookiecutter.pluginName }}] = (options) ->
 		@each ->
-			if !$.data(@, "plugin_#{{{ cookiecutter.pluginName }}}")
-				$.data(@, "plugin_#{{{ cookiecutter.pluginName }}}", new {{ cookiecutter.className }}(@, options))
+			if !$.data(@, "plugin_#{{ "{" }}{{ cookiecutter.pluginName }}{{ "}" }}")
+				$.data(@, "plugin_#{{ "{" }}{{ cookiecutter.pluginName }}{{ "}" }}", new {{ cookiecutter.className }}(@, options))

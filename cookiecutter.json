@@ -1,13 +1,13 @@
 {
-	"full_name": "Your Name",
-	"email": "you@example.com",
-	"github_username": "username",
-	"repo_name": "boilerplate",
-	"project_name": "jQuery Boilerplate",
-	"project_short_description": "A jump-start for jQuery plugins development.",
-	"release_date": "2013-08-14",
-	"year": "2013",
-	"version": "0.1.0",
+  "full_name": "Your Name",
+  "email": "you@example.com",
+  "github_username": "username",
+  "repo_name": "boilerplate",
+  "project_name": "jQuery Boilerplate",
+  "project_short_description": "A jump-start for jQuery plugins development.",
+  "release_date": "2013-08-14",
+  "year": "2013",
+  "version": "0.1.0",
   "pluginName": "boilerPlate",
   "className": "BoilerPlate"
 }

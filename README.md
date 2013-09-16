@@ -4,13 +4,7 @@ Cookiecutter template for a jQuery plugin. See https://github.com/audreyr/cookie
 
 * Free software: MIT license
 
-This is initially based on [jQuery Boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate),
-which I'm a big fan of.
-
-But it will grow as I turn it into my own "opinionated" ultimate jQuery plugin
-template for my projects.
-
-## Usage
+#### Usage
 
 ```
 $ cookiecutter https://github.com/audreyr/cookiecutter-jquery.git
@@ -25,14 +19,12 @@ After generating the project:
 ## Branches
 
 ### master
-This branch is @audreyr's own "opinionated" ultimate jQuery plugin template
-for projects. It started off as jquery-boilerplate, but has since been adapted
+This branch is @audreyr's own "opinionated" ultimate jQuery plugin template for projects. It started off as [jQuery Boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate), but it has since been adapted
 for @audreyr's preferences:
 * Follows [Felix's Node.js Style Guide](http://nodeguide.com/style.html) instead of the [jQuery Core Style Guide](http://contribute.jquery.org/style-guide/js/)
 
 ### jquery-boilerplate
-This branch aims to be as close as possible to the original [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate/).
-If it ever gets out of date, pull requests against this branch are appreciated.
+This branch aims to be as close as possible to the original [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate/), which I'm a big fan of. If it ever gets out of date, pull requests against this branch are appreciated.
 
 ## Similar Cookiecutters
 

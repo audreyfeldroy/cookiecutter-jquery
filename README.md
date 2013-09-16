@@ -20,8 +20,12 @@ After generating the project:
 
 ### master
 This branch is @audreyr's own "opinionated" ultimate jQuery plugin template for projects. It started off as [jQuery Boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate), but it has since been adapted
-for @audreyr's preferences:
-* Follows [Felix's Node.js Style Guide](http://nodeguide.com/style.html) instead of the [jQuery Core Style Guide](http://contribute.jquery.org/style-guide/js/)
+for @audreyr's preferences.
+
+These are the changes:
+* Follows [Felix's Node.js Style Guide](http://nodeguide.com/style.html) instead of the [jQuery Core Style Guide](http://contribute.jquery.org/style-guide/js/):
+  * 2 spaces instead of tabs
+* The generated project's CONTRIBUTING.md links to Felix's guide and has a pull request checklist.
 
 ### jquery-boilerplate
 This branch aims to be as close as possible to the original [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate/), which I'm a big fan of. If it ever gets out of date, pull requests against this branch are appreciated.

@@ -14,23 +14,23 @@ TODO
 
 1. Include jQuery:
 
-	```html
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	```
+  ```html
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  ```
 
 2. Include plugin's code:
 
-	```html
-	<script src="dist/jquery.{{ cookiecutter.repo_name }}.min.js"></script>
-	```
+  ```html
+  <script src="dist/jquery.{{ cookiecutter.repo_name }}.min.js"></script>
+  ```
 
 3. Call the plugin:
 
-	```javascript
-	$("#element").{{ cookiecutter.defaultPluginName }}({
-		propertyName: "a custom value"
-	});
-	```
+  ```javascript
+  $("#element").{{ cookiecutter.defaultPluginName }}({
+    propertyName: "a custom value"
+  });
+  ```
 
 ## Team
 

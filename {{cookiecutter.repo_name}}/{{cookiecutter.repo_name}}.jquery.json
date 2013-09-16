@@ -1,34 +1,34 @@
 {
-	"name": "{{ cookiecutter.repo_name }}",
-	"title": "{{ cookiecutter.project_name }}",
-	"description": "{{ cookiecutter.project_short_description }}",
-	"keywords": [
-		"{{ cookiecutter.repo_name }}"
-	],
-	"version": "{{ cookiecutter.version }}",
-	"author": {
-		"name": "{{ cookiecutter.full_name }}",
-		"email": "{{ cookiecutter.email }}",
-		"url": "https://github.com/{{ cookiecutter.github_username }}"
-	},
-	"maintainers": [
-		{
-			"name": "{{ cookiecutter.full_name }}",
-			"email": "{{ cookiecutter.email }}",
-			"url": "https://github.com/{{ cookiecutter.github_username }}"
-		}
-	],
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://{{ cookiecutter.github_username }}.mit-license.org/"
-		}
-	],
-	"bugs": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues",
-	"homepage": "http://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}",
-	"docs": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}#readme",
-	"download": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/archive/master.zip",
-	"dependencies": {
-		"jquery": ">=1.4"
-	}
+  "name": "{{ cookiecutter.repo_name }}",
+  "title": "{{ cookiecutter.project_name }}",
+  "description": "{{ cookiecutter.project_short_description }}",
+  "keywords": [
+    "{{ cookiecutter.repo_name }}"
+  ],
+  "version": "{{ cookiecutter.version }}",
+  "author": {
+    "name": "{{ cookiecutter.full_name }}",
+    "email": "{{ cookiecutter.email }}",
+    "url": "https://github.com/{{ cookiecutter.github_username }}"
+  },
+  "maintainers": [
+    {
+      "name": "{{ cookiecutter.full_name }}",
+      "email": "{{ cookiecutter.email }}",
+      "url": "https://github.com/{{ cookiecutter.github_username }}"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://{{ cookiecutter.github_username }}.mit-license.org/"
+    }
+  ],
+  "bugs": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues",
+  "homepage": "http://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}",
+  "docs": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}#readme",
+  "download": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/archive/master.zip",
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
 }

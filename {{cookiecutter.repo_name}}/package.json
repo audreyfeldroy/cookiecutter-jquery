@@ -1,20 +1,20 @@
 {
-	"name": "{{ cookiecutter.repo_name }}",
-	"title": "{{ cookiecutter.project_name }}",
-	"description": "{{ cookiecutter.project_short_description }}",
-	"author": "{{ cookiecutter.full_name }}",
-	"homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/",
-	"version": "{{ cookiecutter.version }}",
-	"devDependencies": {
-		"grunt": "~0.4.1",
-		"grunt-cli": "~0.1.7",
-		"grunt-contrib-jshint": "~0.4.3",
-		"grunt-contrib-concat": "~0.3.0",
-		"grunt-contrib-uglify": "~0.2.0",
-		"grunt-contrib-coffee": "~0.7.0",
+  "name": "{{ cookiecutter.repo_name }}",
+  "title": "{{ cookiecutter.project_name }}",
+  "description": "{{ cookiecutter.project_short_description }}",
+  "author": "{{ cookiecutter.full_name }}",
+  "homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/",
+  "version": "{{ cookiecutter.version }}",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.7",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-coffee": "~0.7.0",
     "grunt-contrib-cssmin": "~0.6.1"
-	},
-	"scripts": {
-		"test": "grunt travis --verbose"
-	}
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
 }

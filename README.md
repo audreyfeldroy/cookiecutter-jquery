@@ -26,6 +26,7 @@ These are the changes:
 * Follows [Felix's Node.js Style Guide](http://nodeguide.com/style.html) instead of the [jQuery Core Style Guide](http://contribute.jquery.org/style-guide/js/):
   * 2 spaces instead of tabs
 * The generated project's CONTRIBUTING.md links to Felix's guide and has a pull request checklist.
+* Gruntfile has a connect task that starts a local server and opens the demo index.html. This task is also run by default.
 
 ### jquery-boilerplate
 This branch aims to be as close as possible to the original [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate/), which I'm a big fan of. If it ever gets out of date, pull requests against this branch are appreciated.

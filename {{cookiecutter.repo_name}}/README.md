@@ -27,7 +27,7 @@ TODO
 3. Call the plugin:
 
   ```javascript
-  $("#element").{{ cookiecutter.defaultPluginName }}({
+  $("#element").{{ cookiecutter.pluginName }}({
     propertyName: "a custom value"
   });
   ```
